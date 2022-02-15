@@ -15,6 +15,7 @@ public class BaseObject : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         startScale = transform.localScale;
+        rb.useGravity = false;
     }
 
     public virtual void Update()
