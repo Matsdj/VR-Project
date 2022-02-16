@@ -21,14 +21,6 @@ public class Game1 : MonoBehaviour
             Destroy(this);
         }
     }
-    void Start()
-    {
-        
-    }
-    void Update()
-    {
-        
-    }
 
     public void AddPoints(int amount)
     {
@@ -38,7 +30,6 @@ public class Game1 : MonoBehaviour
     {
         set {
             points = value;
-            Debug.Log(value);
             text.text = "Points:"+points;
         }
         get { return points; }
