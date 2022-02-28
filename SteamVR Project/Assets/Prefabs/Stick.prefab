@@ -124,7 +124,7 @@ MonoBehaviour:
   hideControllerOnAttach: 1
   handAnimationOnPickup: 0
   setRangeOfMotionOnPickup: -1
-  useHandObjectAttachmentPoint: 0
+  useHandObjectAttachmentPoint: 1
   attachEaseIn: 0
   snapAttachEaseInCurve:
     serializedVersion: 2
